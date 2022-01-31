@@ -1,0 +1,15 @@
+.diagram-parent{
+    @apply h-screen ;
+}
+
+
+
+.import-error {
+  color: red;
+  padding: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

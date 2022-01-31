@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.djs-palette.two-column.open {
+    height: 100% !important;
+    width: 270px !important;
+}
+
+.djs-palette-entries{
+  height: 100%;
+}
+.djs-palette-entries .group{
+  display: flex;
+justify-content: center;
+justify-items: center;
+flex-flow: column;
+width: fit-content;
+margin: auto;
+border-bottom: none;
+}
